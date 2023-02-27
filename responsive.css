@@ -1,0 +1,149 @@
+@media screen and (max-width:1000px) {
+    .navbar-items {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width:1300px) {
+    .logo-group {
+        margin-left: 15px;
+    }
+
+    .hero-section {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .hero-section-left {
+        align-items: center;
+    }
+    #hero-section-btn{
+        position:absolute;
+        bottom: 0;
+        font-size: 23px;
+    }
+    .hero-section-description {
+        width: 100%;
+    }
+
+    .faded-text {
+        display: none;
+    }
+
+    .project-container {
+        align-items: center;
+    }
+
+    .projects-heading {
+        font-size: 24px;
+    }
+
+    .project-card-number {
+        display: none;
+    }
+
+    #project1 {
+        background-position: center;
+    }
+
+    #project2 {
+        margin-left: 0px;
+        background-position: right;
+    }
+
+    #project3 {
+        background-position: center;
+    }
+
+    #project4 {
+        margin-left: 0px;
+        background-position: center;
+    }
+
+    .project-skill {
+        width: 20px;
+    }
+
+    .project-card-heading {
+        font-size: 14px;
+    }
+
+    .project-card-sub-heading {
+        font-size: 14px;
+    }
+
+    .btn-pink {
+        font-size: 10px;
+        padding: 0.6rem 1.8rem;
+    }
+
+    .icon {
+        font-size: 14px;
+    }
+
+    .faded-text-skills {
+        display: none;
+    }
+
+    .footer-faded-text {
+        display: none;
+    }
+
+    .skills-container {
+        margin-top: 20px;
+        flex-direction: column;
+        text-align: center;
+        padding: 20px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .skills-container-sub-heading {
+        width: 100%;
+    }
+
+    .skills-container-right {
+        justify-content: center;
+    }
+
+    .skill-image {
+        width: 60px;
+    }
+
+    h1.contactUs-heading {
+        font-size: 2.5rem;
+        text-align: center;
+    }
+
+    h3.contactUs-sub-heading {
+        font-size: 1.2rem;
+        text-align: center;
+        margin-top: 15px;
+    }
+
+    .contactUs-form-container {
+        margin-top: -25px;
+    }
+
+    form.form {
+        width: 100%;
+    }
+
+    #btn-submit {
+        width: 100%;
+        text-align: center;
+        font-size: 1.5rem;
+    }
+
+    .footer-wrapper {
+        flex-direction: column;
+        padding: 4rem;
+        gap: 20px;
+    }
+
+    .f-icon {
+        font-size: 32px;
+    }
+}
